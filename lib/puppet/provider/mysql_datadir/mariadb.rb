@@ -2,7 +2,7 @@
 
 Puppet::Type.type(:mysql_datadir).provide(
   :mariadb,
-  parent: Puppet::Type.type(:mysql_database).provider(:mysql),
+  parent: Puppet::Type.type(:mysql_datadir).provider(:mysql),
 ) do
   desc 'manage data directories for mysql instances'
 
