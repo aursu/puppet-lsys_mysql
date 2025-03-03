@@ -15,3 +15,13 @@ All notable changes to this project will be documented in this file.
 * Bugfix for wrong parental class
 
 **Known Issues**
+
+## Release 0.5.0
+
+**Features**
+
+* Added lsys_mysq::db defined type
+
+**Bugfixes**
+
+**Known Issues**
